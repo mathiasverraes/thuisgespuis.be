@@ -94,13 +94,14 @@ blockquote .byline {
 .feature {
     height:60px;
     padding:60px 0 0;
-    background:#7fa1d7;
+    background:#222;
+    /*
     background-image: linear-gradient(left , rgb(92,113,169) 0%, rgb(127,161,215) 50%, rgb(92,113,169) 100%);
     background-image: -o-linear-gradient(left , rgb(92,113,169) 0%, rgb(127,161,215) 50%, rgb(92,113,169) 100%);
     background-image: -moz-linear-gradient(left , rgb(92,113,169) 0%, rgb(127,161,215) 50%, rgb(92,113,169) 100%);
     background-image: -webkit-linear-gradient(left , rgb(92,113,169) 0%, rgb(127,161,215) 50%, rgb(92,113,169) 100%);
     background-image: -ms-linear-gradient(left , rgb(92,113,169) 0%, rgb(127,161,215) 50%, rgb(92,113,169) 100%);
-    
+
     background-image: -webkit-gradient(
         linear,
         left bottom,
@@ -109,6 +110,7 @@ blockquote .byline {
         color-stop(0.5, rgb(127,161,215)),
         color-stop(1, rgb(92,113,169))
     );
+    */
     background-size:100% auto;
     border-bottom:1px solid #fff;
     box-shadow:rgba(0,0,0,0.2) 0 -1px 10px inset;
@@ -118,7 +120,7 @@ blockquote .byline {
 .feature.large {
     height:288px;
     padding:80px 0 0;
-    background:#5a6fa7 url("../photos/overview-wide.jpg") center center no-repeat;
+    background:#222 url("../photos/overview-wide.jpg") center center no-repeat;
     box-shadow:none;
 }
 
@@ -525,4 +527,15 @@ i.icon-large { background-image: none; }
 
 .navbar a.brand {
     font-size: 28px;
+}
+
+.brand i {
+    margin-top: -8px;
+    margin-right: 0px;
+    vertical-align: middle;
+    color: #888;
+}
+
+.navbar .nav {
+    margin-top: 2px;
 }
