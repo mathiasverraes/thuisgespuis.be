@@ -53,7 +53,7 @@ section.dark {
     margin:45px 0 0;
     padding:30px 0;
     color:#ddd;
-    font-size:12px;
+    font-size:14px;
 }
 
 .dark h2, .dark h3, .dark h4 {
@@ -251,6 +251,8 @@ nav.opaque .navbar-inner .container {
 .has-icon .icon i {
     line-height:1.4em;
 }
+
+i.icon-large { background-image: none; }
 
 .thumbnail {
     background:#fff;
@@ -519,4 +521,8 @@ nav.opaque .navbar-inner .container {
     .feature-pop .span8 {
         width:auto;
     }
+}
+
+.navbar a.brand {
+    font-size: 28px;
 }
